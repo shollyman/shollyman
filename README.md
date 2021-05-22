@@ -2,7 +2,7 @@
   SELECT
     product, lang, repo, issues
   FROM
-    [google.cloud](https://cloud.google.com/).developer_relations
+    google_cloud.developer_relations
   WHERE
     user_id = 'shollyman'
     AND role IN ('library_maintainer','engineer','blowhard')
