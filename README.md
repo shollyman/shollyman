@@ -1,6 +1,6 @@
 ```sql
   SELECT
-    product, lang, repo, issuetracker
+    product, lang, repo, issues
   FROM
     google.cloud.developer_relations
   WHERE
